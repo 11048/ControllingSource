@@ -125,13 +125,8 @@
 			children = (
 				5AF9A4391AF5B61300757D51 /* AppDelegate.h */,
 				5AF9A43A1AF5B61300757D51 /* AppDelegate.m */,
-				5AF9A43C1AF5B61300757D51 /* Main.storyboard */,
-				5AF9A4421AF5B61300757D51 /* MasterViewController.h */,
-				5AF9A4431AF5B61300757D51 /* MasterViewController.m */,
-				5AF9A4451AF5B61300757D51 /* DetailViewController.h */,
-				5AF9A4461AF5B61300757D51 /* DetailViewController.m */,
-				5AF9A4481AF5B61300757D51 /* Images.xcassets */,
-				5AF9A43F1AF5B61300757D51 /* ControllingSource.xcdatamodeld */,
+				5AF9A4671AF5B7E200757D51 /* Resources */,
+				5AF9A4661AF5B7CF00757D51 /* ViewController */,
 				5AF9A4311AF5B61300757D51 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -164,6 +159,27 @@
 				5AF9A4591AF5B61300757D51 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF9A4661AF5B7CF00757D51 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9A4421AF5B61300757D51 /* MasterViewController.h */,
+				5AF9A4431AF5B61300757D51 /* MasterViewController.m */,
+				5AF9A4451AF5B61300757D51 /* DetailViewController.h */,
+				5AF9A4461AF5B61300757D51 /* DetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5AF9A4671AF5B7E200757D51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9A43C1AF5B61300757D51 /* Main.storyboard */,
+				5AF9A4481AF5B61300757D51 /* Images.xcassets */,
+				5AF9A43F1AF5B61300757D51 /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
